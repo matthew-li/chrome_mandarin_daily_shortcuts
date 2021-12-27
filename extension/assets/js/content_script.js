@@ -6,7 +6,7 @@
  * "q": Back ("b" triggers block)
  * @return {null}
  */
- document.addEventListener("keyup", function (event) {
+ document.addEventListener("keydown", function (event) {
   let tweetPrefix = `https://twitter.com/${USERNAME}/status/`;
   if (window.location.href.startsWith(tweetPrefix)) {
     switch(event.key) {
