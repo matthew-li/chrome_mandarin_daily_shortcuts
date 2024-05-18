@@ -51,7 +51,7 @@ chrome.storage.local.get(defaults, function(items) {
  * The prefix that Tweets by the Twitter account begin with.
  * @const {string};
  */
-const TWEET_PREFIX = `https://twitter.com/${USERNAME}/status/`;
+const TWEET_PREFIX = `https://x.com/${USERNAME}/status/`;
 
 
 /**

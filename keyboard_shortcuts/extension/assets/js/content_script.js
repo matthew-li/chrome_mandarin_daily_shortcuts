@@ -7,7 +7,7 @@
  * @return {null}
  */
  document.addEventListener("keydown", function (event) {
-  let tweetPrefix = `https://twitter.com/${USERNAME}/status/`;
+  let tweetPrefix = `https://x.com/${USERNAME}/status/`;
   if (window.location.href.startsWith(tweetPrefix)) {
     switch(event.key) {
       case "w":

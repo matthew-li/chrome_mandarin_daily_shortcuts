@@ -4,7 +4,7 @@
   "description": "Raise an alert when a configurable number of Tweets by @mandarin_daily have been reviewed.",
   "content_scripts": [
     {
-      "matches": ["https://twitter.com/mandarin_daily/*"],
+      "matches": ["https://x.com/mandarin_daily/*"],
       "js": ["assets/js/content_script.js"],
       "run_at": "document_start"
     }

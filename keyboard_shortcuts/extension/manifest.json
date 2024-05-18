@@ -4,7 +4,7 @@
   "description": "Navigate Tweets by @mandarin_daily with keys ('w': Last Week, 's': Last Month, 'a': Random, 'q': Back).",
   "content_scripts": [
     {
-      "matches": ["https://twitter.com/mandarin_daily/*"],
+      "matches": ["https://x.com/mandarin_daily/*"],
       "js": ["assets/js/content_script.js"]
     }
   ],
